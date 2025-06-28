@@ -19,6 +19,7 @@ import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import NotificationCenter from './pages/NotificationCenter';
 import Support from './pages/Support';
+import AdminLogin from "./pages/AdminLogin";
 
 // Existing pages
 import Index from "./pages/Index";
@@ -63,7 +64,7 @@ const App = () => (
                   <Route path="/notifications" element={<NotificationCenter />} />
                   <Route path="/support" element={<Support />} />
                   <Route path="/settings" element={<Settings />} />
-                  <Route path="/admin" element={<AdminDashboard />} />
+                  <Route path="/admin" element={<AdminLogin />} />
                   
                   {/* Lazy-loaded AI Module Routes */}
                   <Route 
